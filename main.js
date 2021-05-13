@@ -4,7 +4,7 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 document.body.addEventListener("click", (e)=>{
-  if(e.targer.className == "")
+  if(e.targer.className == "like-glyph") e.target.style.color = "red";
 });
 
 
