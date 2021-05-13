@@ -4,7 +4,7 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 document.body.addEventListener("click", (e)=>{
-  if(e.target.className == "like-glyph") e.target.style.color = "red";
+  if(e.target.className == "like-glyph") mimicServerCall();
 });
 
 
