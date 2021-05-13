@@ -21,7 +21,7 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
         
         alert("Random server error. Try again.");
       } else {
-        resolve("Pretend remote server notified of action!");
+        alert("Pretend remote server notified of action!");
       }
     }, 300);
   });
