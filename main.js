@@ -18,7 +18,8 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
     setTimeout(function() {
       let isRandomFailure = Math.random() < .2
       if (isRandomFailure) {
-        reject("Random server error. Try again.");
+        
+        alert("Random server error. Try again.");
       } else {
         resolve("Pretend remote server notified of action!");
       }
