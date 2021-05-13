@@ -3,7 +3,9 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-document.body.addEventListener("click", (w));
+document.body.addEventListener("click", (e)=>{
+  if(e.targer.className == "")
+});
 
 
 
